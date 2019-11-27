@@ -1,16 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var createClass = require('create-react-class');
+var List = require('./components/List');
 
 ReactDOM.render(
-  // Lúc chưa có babel-*
-  // React.createElement(
-  //   'a',
-  //   {
-  //     href: 'http://haodev.wordpress.vn'
-  //   },
-  //   'Hao vua change text'
-  // ),
-  <a href="http://haodev.wordpress.vn">Hao vua change text</a>
+  <List />
   ,
   document.getElementById('root')
 );
